@@ -3,7 +3,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 1px
+    margin: 1px;
+    display: block; 
 }
 
 
@@ -45,11 +46,97 @@ body {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+
+/* index.html css only */
+
 .index-main{
     text-align: center;
     padding-top: 4rem;
 }
 .index-para{
     font-size: larger;
+    font-weight: bold;
+}
+
+.index-container{
+    width: 300px;
+    margin: auto auto;
+}
+
+
+.index-label {
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.index-input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 1rem 0;
+  border-color: black;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.index-btn{
+    font-size: large;
+}
+
+.index-output{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+/* hypotenuse.html css only */
+
+.hypotenuse-main{
+    text-align: center;
+    padding-top: 4rem;
+}
+.hypotenuse-para{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.hypotenuse-container{
+    width: 300px;
+    margin: auto auto;
+}
+
+
+.hypotenuse-label {
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.hypotenuse-input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 1rem 0;
+  border-color: black;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.hypotenuse-btn{
+    font-size: large;
+}
+
+.hypotenuse-output{
+    padding-top: 2rem;
+    font-size: x-large;
     font-weight: bold;
 }
