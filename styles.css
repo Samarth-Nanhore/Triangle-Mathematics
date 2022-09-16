@@ -140,3 +140,35 @@ body {
     font-size: x-large;
     font-weight: bold;
 }
+
+/* quiz.html css only */
+
+.quiz-main{
+    text-align: center;
+    padding-top: 4rem;
+}
+.quiz-para{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.quiz-container p {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+.quiz-container label,input{
+    font-size: large;
+}
+
+.quiz-btn{
+    font-size: large;
+     margin-top: 2rem;
+}
+
+.quiz-output{
+    padding-top: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+}

@@ -23,10 +23,11 @@
             </li>
         </ul>
     </nav>
-    <main>
+    <main class="quiz-main">
     <h1>Triangle Quiz</h1>
+    <p class="quiz-para">A small quiz about triangles</p>
     <form class="quizform" >
- <div class="question-container">
+ <div class="question-container quiz-container">
     <p>
         How many acute angles must an acute triangle have?
     </p>
@@ -35,7 +36,7 @@
     <label><input type="radio" name="question1" value="3"/>3</label>
  </div>
 
- <div class="question-container">
+ <div class="question-container quiz-container">
     <p>      
 An angle whose measure is exactly 90 degrees.
     </p>
@@ -47,9 +48,10 @@ An angle whose measure is exactly 90 degrees.
     straight</label>
  </div>
 </form>
-<button id="sumbit"> sumbit answer</button> 
-<div id="output"></div>
+<button id="sumbit" class="quiz-btn"> sumbit answer</button> 
+<div id="output" class="quiz-output"></div>
 </main>
+
 
     <script src="quiz.js"></script>
 </body>
