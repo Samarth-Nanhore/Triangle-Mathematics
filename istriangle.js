@@ -10,8 +10,12 @@ return sum;
 
 
 function Triangle(){
-//   const sum = calculateSumOfAngles(45, 45, 90)
-const sum = calculateSumOfAngles(Number(input[0].value),
+    if(input[0].value=="" || input[1].value=="" || input[2].value=="")
+    {
+        output.innerText = "Please enter all angles";
+    }
+   else{
+    const sum = calculateSumOfAngles(Number(input[0].value),
 Number(input[1].value), Number(input[2].value)
 );
 //chekcking
@@ -23,6 +27,9 @@ else{
 }
 
 }
+} 
+//   const sum = calculateSumOfAngles(45, 45, 90)
+
 
 
 btn.addEventListener("click", Triangle)
