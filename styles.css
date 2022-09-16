@@ -172,3 +172,51 @@ body {
     font-size: x-large;
     font-weight: bold;
 }
+
+
+
+/* area.html css only */
+
+.area-main{
+    text-align: center;
+    padding-top: 4rem;
+}
+.area-para{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.area-container{
+    width: 300px;
+    margin: auto auto;
+}
+
+
+.area-label {
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.area-input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 1rem 0;
+  border-color: black;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.area-btn{
+    font-size: large;
+}
+
+.area-output{
+    padding-top: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
