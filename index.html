@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Triangle?</title>
-    <link rel="stylesheet" href="istriangle.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Triangles</h1>
-        <nav>
-            <a href="istriangle.html">Is Triangle?</a>
-            <a href="quiz.html">Trangle quiz</a>
-            <a href="hypotenuse.html">Calculate Hypotenuse</a>
-    
-        </nav>
-    </header>
+    <nav class="navigation container">
+        <div class="nav-brand">Triangle</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/quiz.html">Trangle quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Calculate Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
 
-    <main class="main">
+    <main class="index-main">
     <h1>Is Triangle?</h1>
+    <p class="index-para">Find out it's triangle or not</p>
     <label for="angle1" class="input-label">angle1</label>
     <input type="number" class="angle-input"/>
     <label for="angle2" class="input-label">angle2</label>
@@ -29,6 +35,10 @@
     <button id="triangle-btn"> Triangle?</button>   
     <p id="output"></p>
     </main>
+
+
+
+    
     <script src="istriangle.js"></script>
 </body>
 </html>
