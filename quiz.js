@@ -2,7 +2,7 @@ const quizForm = document.querySelector('.quizform');
 const sumbitAnswerBtn = document.querySelector("#sumbit");
 const output = document.querySelector('#output');
 
-const correctAnswers = ["3", "right"]
+const correctAnswers = ["Right", ""]
 
 function calculateScore() {
     let score = 0;
@@ -15,7 +15,12 @@ function calculateScore() {
         index = index + 1;
     }
     console.log(score)
-    output.innerText ="Your score is"+ score;
+    if(score>=2){
+        output.innerText ="Your score is"+" "+ score +" "+ "keep it up 👍"
+    }else{
+        output.innerText ="Your score is"+" "+ score +" "+ "try again 💪"
+    }
+    
 }
 
 sumbitAnswerBtn.addEventListener('click', calculateScore);

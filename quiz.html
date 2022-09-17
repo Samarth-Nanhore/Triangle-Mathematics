@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <nav class="navigation container">
         <div class="nav-brand">Triangle</div>
@@ -27,35 +29,112 @@
         </ul>
     </nav>
     <main class="quiz-main">
-    <h1>Triangle Quiz</h1>
-    <p class="quiz-para">A small quiz about triangles</p>
-    <form class="quizform" >
- <div class="question-container quiz-container">
-    <p>
-        How many acute angles must an acute triangle have?
-    </p>
-    <label><input type="radio" name="question1" value="4" />4</label>
-    <label><input type="radio" name="question1" value="2"/>2</label>
-    <label><input type="radio" name="question1" value="3"/>3</label>
- </div>
+        <h1>Triangle Quiz</h1>
+        <p class="quiz-para">A small quiz about triangles</p>
+        <form class="quizform">
+            <div class="question-container quiz-container">
+                <p>
+                 What is a triangle?
+                </p>
+                <label><input type="radio" name="question1" value="A geometric figure" />A geometric figure</label>
+                <label><input type="radio" name="question1" value="An form of architecture" />An form of architecture</label>
+                <label><input type="radio" name="question1" value="A piece of art" />A piece of art</label>
+            </div>
 
- <div class="question-container quiz-container">
-    <p>      
-An angle whose measure is exactly 90 degrees.
-    </p>
-    <label><input type="radio" name="question2" value="vertical" />
-    vertical</label>
-    <label><input type="radio" name="question2" value="right"/>
-    right</label>
-    <label><input type="radio" name="question2" value="straight"/>
-    straight</label>
- </div>
-</form>
-<button id="sumbit" class="quiz-btn"> sumbit answer</button> 
-<div id="output" class="quiz-output"></div>
-</main>
+            <div class="question-container quiz-container">
+                <p>
+                 Which group does the triangle belong to?
+                </p>
+                <label><input type="radio" name="question2" value="Polydor" />Polydor</label>
+                <label><input type="radio" name="question2" value="Potter" />Potter</label>
+                <label><input type="radio" name="question2" value="Polygon" />Polygon</label>
+            </div>
+
+            <div class="question-container quiz-container">
+                <p>
+                 How many edges does a triangle have?
+                </p>
+                <label><input type="radio" name="question3" value="3" />3</label>
+                <label><input type="radio" name="question3" value="2" />2</label>
+                <label><input type="radio" name="question3" value="4" />4</label>
+            </div>
+
+            <div class="question-container quiz-container">
+                <p>
+                  What is the name of a triangle with equal vertices?
+                </p>
+                <label><input type="radio" name="question4" value="Equilateral" />Equilateral</label>
+                <label><input type="radio" name="question4" value="Train" />Train</label>
+                <label><input type="radio" name="question4" value="Triennial" />Triennial</label>
+            </div>
+
+            <div class="question-container quiz-container">
+                <p>
+                Which science studies the triangle?
+                </p>
+                <label><input type="radio" name="question5" value="Geometry" />Geometry</label>
+                <label><input type="radio" name="question5" value="Biology" />Biology</label>
+                <label><input type="radio" name="question5" value="Microbiology" />Microbiology</label>
+            </div>
+
+
+            <div class="question-container quiz-container">
+                <p>
+                 How many dimensions does a triangle have?
+                </p>
+                <label><input type="radio" name="question6" value="4" />4</label>
+                <label><input type="radio" name="question6" value="3" />3</label>
+                <label><input type="radio" name="question6" value="2" />2</label>
+            </div>
+
+
+
+            <div class="question-container quiz-container">
+                <p>
+                 What is the name of the triangle with no equal sides?
+                </p>
+                <label><input type="radio" name="question7" value="Scalene" />Scalene</label>
+                <label><input type="radio" name="question7" value="Caitlyn" />Caitlyn</label>
+                <label><input type="radio" name="question7" value="Galen" />Galen</label>
+            </div>
+
+            <div class="question-container quiz-container">
+                <p>
+                  How many vertices does a triangle have?
+                </p>
+                <label><input type="radio" name="question8" value="3" />3</label>
+                <label><input type="radio" name="question8" value="5" />5</label>
+                <label><input type="radio" name="question8" value="4" />4</label>
+            </div>
+
+
+            <div class="question-container quiz-container">
+                <p>
+                  What is the name of a triangle with two equal vertices and one different vertice?
+                </p>
+                <label><input type="radio" name="question9" value="Plato" />Plato</label>
+                <label><input type="radio" name="question9" value="Isosceles" />Isosceles</label>
+                <label><input type="radio" name="question9" value="Aristotle" />Aristotle</label>
+            </div>
+
+
+            <div class="question-container quiz-container">
+                <p>
+                  What is the longest side of a triangle called?
+                </p>
+                <label><input type="radio" name="question10" value="Hyppo" />Hyppo</label>
+                <label><input type="radio" name="question10" value="Hypopothamus" />Hypopothamus</label>
+                <label><input type="radio" name="question10" value="Hypotenuse" />Hypotenuse</label>
+            </div>
+
+
+        </form>
+        <button id="sumbit" class="quiz-btn"> sumbit answer</button>
+        <div id="output" class="quiz-output"></div>
+    </main>
 
 
     <script src="quiz.js"></script>
 </body>
+
 </html>
