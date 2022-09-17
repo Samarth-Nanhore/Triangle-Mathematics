@@ -213,10 +213,11 @@ body {
 
 .area-btn{
     font-size: large;
+    padding-bottom: 1px;
 }
 
 .area-output{
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: x-large;
     font-weight: bold;
 }
