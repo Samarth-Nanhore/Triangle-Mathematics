@@ -1,5 +1,5 @@
 <h1>mark12:Triangles mathematics </h1>
-<h2>site link: https://cheerful-figolla-dc710f.netlify.app/ </h2>
+<h2>site link:https://triangle-mathematics.netlify.app/ </h2>
 
 ####Tech Stack:
 
