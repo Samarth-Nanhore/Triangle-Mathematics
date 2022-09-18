@@ -12,13 +12,13 @@ function calculateSumOfSquares(a, b){
 
 function calculateHypotenuse() {
     if(sides[0].value=="" || sides[1].value==""){
-        output.innerText = "Please add both sides"
+    output.innerText = "Please add both sides"
 
     }
     else{
         const sumsquare = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
-        const lengthOfHypotenus = Math.sqrt(sumsquare);
-       output.innerText = "The length of hyptenuse is" +" "+ lengthOfHypotenus
+        const lengthOfHypotenus = Math.sqrt(sumsquare); //for square root ->.sqrt 
+        output.innerText = "The length of hyptenuse is" +" "+ lengthOfHypotenus
     }
   
 }
